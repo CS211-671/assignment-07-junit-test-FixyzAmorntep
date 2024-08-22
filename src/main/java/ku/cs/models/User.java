@@ -2,7 +2,7 @@ package ku.cs.models;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
 
-public class User {
+public class  User {
     private String username;
     private String password;
 
