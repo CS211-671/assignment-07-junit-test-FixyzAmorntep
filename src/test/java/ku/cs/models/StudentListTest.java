@@ -58,4 +58,9 @@ public class StudentListTest {
         Student student = studentList.findStudentById("6610451231");
         assertEquals("C", student.grade());
     }
+
+    @Test
+    void testGetStudents() {
+        assertEquals(1, studentList.getStudents().size());
+    }
 }
